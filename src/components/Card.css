@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    max-height: max-content;
+}
+
+.image {
+    width: 100%;
+}
+
+.info {
+    padding: 8px;
+    background-color: #18182a;
+    height: 100%;
+    color: rgb(218, 212, 212);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.circle {
+    position: absolute;
+    width: 2.7vw; /* Adjust the size as needed */
+    height: 5.4vh; /* Adjust the size as needed */
+    background-color: white; /* Circle color */
+    border-radius: 50%; /* Creates the circle shape */
+    margin-top: 48%;
+    margin-left: 84.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .like:hover {
+    color:red;
+  }
+  

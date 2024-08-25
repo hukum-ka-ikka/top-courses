@@ -1,0 +1,9 @@
+.Cards {
+    display: flex;
+    width: 60vw;
+    min-height: max-content;
+    flex-wrap: wrap;
+    column-gap: 0.7rem;
+    row-gap: 0.7rem;
+    justify-content: center;
+}
